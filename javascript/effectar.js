@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var teljari = Math.floor(Math.random() * 6) + 1;
+  var teljari = Math.floor((Math.random() * 5) + 1);
   
   if(teljari==1)
 	{
