@@ -138,92 +138,92 @@ $(document).ready(function() {
   $(".linkar2").mouseleave(function() {
     $(this).css("background-color", "white");
   });
-  
+
   $(".einn").mouseenter(function() {
-    $(this).css("background-image", "url(img/greinamynd1b.jpg)");
+    $(this).css("border", "solid #059ac8");
   });
   
   $(".einn").mouseleave(function() {
-    $(this).css("background-image","url(img/greinamynd1.jpg)");
+    $(this).css("border", "solid #8b8b8b");
   });
   
   $(".tveir").mouseenter(function() {
-    $(this).css("background-image", "url(img/greinamynd22.jpg)");
+    $(this).css("border", "solid #059ac8");
   });
   
   $(".tveir").mouseleave(function() {
-    $(this).css("background-image","url(img/greinamynd2.jpg)");
+    $(this).css("border", "solid #8b8b8b");
   });
   
   $(".þrir").mouseenter(function() {
-    $(this).css("background-image", "url(img/greinamynd33.jpg)");
+    $(this).css("border", "solid #059ac8");
   });
   
   $(".þrir").mouseleave(function() {
-    $(this).css("background-image","url(img/greinamynd3.jpg)");
+    $(this).css("border", "solid #8b8b8b");
   });
   
   $(".fjorir").mouseenter(function() {
-    $(this).css("background-image", "url(img/greinamynd44.jpg)");
+    $(this).css("border", "solid #059ac8");
   });
   
   $(".fjorir").mouseleave(function() {
-    $(this).css("background-image","url(img/greinamynd4.jpg)");
+    $(this).css("border", "solid #8b8b8b");
   });
   
   $(".fimm").mouseenter(function() {
-    $(this).css("background-image", "url(img/greinamynd55.jpg)");
+    $(this).css("border", "solid #059ac8");
   });
   
   $(".fimm").mouseleave(function() {
-    $(this).css("background-image","url(img/greinamynd5.jpg)");
+    $(this).css("border", "solid #8b8b8b");
   });
   
   $(".sex").mouseenter(function() {
-    $(this).css("background-image", "url(img/greinamynd66.jpg)");
+    $(this).css("border", "solid #059ac8");
   });
   
   $(".sex").mouseleave(function() {
-    $(this).css("background-image","url(img/greinamynd6.jpg)");
+    $(this).css("border", "solid #8b8b8b");
   });
   
   $(".sjo").mouseenter(function() {
-    $(this).css("background-image", "url(img/greinamynd77.jpg)");
+    $(this).css("border", "solid #059ac8");
   });
   
   $(".sjo").mouseleave(function() {
-    $(this).css("background-image","url(img/greinamynd7.jpg)");
+    $(this).css("border", "solid #8b8b8b");
   });
   
   $(".atta").mouseenter(function() {
-    $(this).css("background-image", "url(img/greinamynd88.jpg)");
+    $(this).css("border", "solid #059ac8");
   });
   
   $(".atta").mouseleave(function() {
-    $(this).css("background-image","url(img/greinamynd8.jpg)");
+    $(this).css("border", "solid #8b8b8b");
   });
   
   $(".niu").mouseenter(function() {
-    $(this).css("background-image", "url(img/greinamynd99.jpg)");
+    $(this).css("border", "solid #059ac8");
   });
   
   $(".niu").mouseleave(function() {
-    $(this).css("background-image","url(img/greinamynd9.jpg)");
+    $(this).css("border", "solid #8b8b8b");
   });
   
   $(".tiu").mouseenter(function() {
-    $(this).css("background-image", "url(img/greinamynd1010.jpg)");
+    $(this).css("border", "solid #059ac8");
   });
   
   $(".tiu").mouseleave(function() {
-    $(this).css("background-image","url(img/greinamynd10.jpg)");
+    $(this).css("border", "solid #8b8b8b");
   });
   
   $(".ellefu").mouseenter(function() {
-    $(this).css("background-image", "url(img/greinamynd1111.jpg)");
+    $(this).css("border", "solid #059ac8");
   });
   
   $(".ellefu").mouseleave(function() {
-    $(this).css("background-image","url(img/greinamynd11.jpg)");
+    $(this).css("border", "solid #8b8b8b");
   });
 });
