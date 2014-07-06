@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset= "UTF-8">
+	 <title>Kljáströnd</title>
+	 <link rel="stylesheet" type="text/css" href="css/utlit.css">
+	 <link rel= "shortcut icon" href= "img/logo3.png" type= "image/png">
+   </head>

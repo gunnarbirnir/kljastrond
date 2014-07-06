@@ -2,7 +2,7 @@
 <html>
    <head>
      <meta charset= "UTF-8">
-	 <title>Kljáströnd</title>
+	 <title>Kljáströnd | Heim</title>
 	 <link rel="stylesheet" type="text/css" href="css/utlit.css">
 	 <link rel= "shortcut icon" href= "img/logo3.png" type= "image/png">
 	 <!--[if lt IE 9]>
@@ -16,34 +16,19 @@
       document.createElement("section");
     </script>
     <![endif]--> 
+	<script type="text/javascript" src="javascript/jquery.js"></script>
+    <script type="text/javascript" src="javascript/effectar.js"></script>
    </head>
-   <body>
-     <nav id="nav2">
-	   <ul>
-	   <li class="listi"><a class="linkar2", href="http://www.akureyri.is/" target="_blank">Akureyri</a></li>
-	   <img src="img/line2.png" width="1" height= "15" class="strik">
-	   <li class="listi"><a class="linkar2", href="http://www.aba.is/" target="_blank">Bátar í Eyjafirði</a></li>
-	   <img src="img/line2.png" width="1" height= "15" class="strik">
-	   <li class="listi"><a class="linkar2", href="http://www.esveit.is/" target="_blank">Eyjafjarðarsveit</a></li>
-	   <img src="img/line2.png" width="1" height= "15" class="strik">
-	   <li class="listi"><a class="linkar2", href="http://www.fjordungar.com/" target="_blank">Fjörðungar</a></li>
-	   <img src="img/line2.png" width="1" height= "15" class="strik">
-	   <li class="listi"><a class="linkar2", href="http://www.grenivik.is/" target="_blank">Grenivík</a></li>
-	   </ul> 
-	 </nav>
-	 
+   <body id="heimasida">
      <header id="banner">
-	   <img src="img/banner5.png" width="650" id="fyrirsogn">
+	   <img src="img/banner9.png" width="650" id="fyrirsogn">
 	   <img src="img/or6.png" width="25" height= "25" id="prev">
 	   <img src="img/or5.png" width="25" height= "25" id="next">
 	 </header>
 	 
 	 <span id="heim">
 	 </span>
-	 
-	 <span id="greinar">
-	 </span>
-	 
+	
 	 <main> 
 	   <a class="greinar", href="pdf/gunnar_prestur.pdf" target="_blank">
 	   <article class= "tveir">
@@ -121,9 +106,29 @@
 	   <p>18.10.1963</p>
 	   </article>
 	   </a>
-	 </main>
+	   
+	 <img src="img/line3.png" height="1" width="240" id="millilina1">  
+	 <p id="stgreinar">Lengri umfjallanir</p>
+	 <img src="img/line3.png" height="1" width="240" id="millilina2">
 	 
-	 <aside>
+     <a class="greinar", href="pdf/verslun.pdf" target="_blank">
+	 <div id="bein">
+	   <h3>Kljástrandarverslunin</h3> 
+	   <p></p>
+	 </div>
+	 </a>
+	 
+	 <a class="greinar", href="pdf/bein.pdf" target="_blank">
+	 <div id="bein2">
+	   <h3>Fjölskylduveldi í Höfða og Kljáströnd</h3> 
+	   <p></p>
+	 </div>
+	 </a>
+	 
+	 </main>
+
+     <div id="hlidarheild">	 
+	 <aside id = "hlidar">
 	   <h3>Um Kljáströnd</h3>
 	   <img src="img/lina.png" height="3" width="250">
 	   <p class= "um">Kljáströnd er lítill bær á austanverðum Eyjafirði. Þar var forðum lítið sjávarþorp en nú eru leyfar þess notaðar sem sumarhús...
@@ -140,23 +145,36 @@
 	   </div>
 	   <img src="img/lina.png" height="3" width="250">
 	 </aside>
-
-	 <footer>
-	   <p>Hönnun vefsíðu: Gunnar Birnir Ólafsson</p>
-	 </footer>
+	 
+	  <aside id = "hlidar2">
+	   <p class ="um2">Ef þið hafið einhverjar ábendingar eða uppástungur endilega sendið póst á <strong>oligunn59@gmail.com.</strong></p>
+	 </aside>
+	 </div>
+	 
+	 <nav id="nav2">
+	   <ul>
+	   <li class="listi"><a class="linkar2", href="http://www.akureyri.is/" target="_blank">Akureyri</a></li>
+	   <img src="img/line2.png" width="1" height= "15" class="strik">
+	   <li class="listi"><a class="linkar2", href="http://www.aba.is/" target="_blank">Bátar í Eyjafirði</a></li>
+	   <img src="img/line2.png" width="1" height= "15" class="strik">
+	   <li class="listi"><a class="linkar2", href="http://www.esveit.is/" target="_blank">Eyjafjarðarsveit</a></li>
+	   <img src="img/line2.png" width="1" height= "15" class="strik">
+	   <li class="listi"><a class="linkar2", href="http://www.fjordungar.com/" target="_blank">Fjörðungar</a></li>
+	   <img src="img/line2.png" width="1" height= "15" class="strik">
+	   <li class="listi"><a class="linkar2", href="http://www.grenivik.is/" target="_blank">Grenivík</a></li>
+	   <img src="img/line2.png" width="1" height= "15" class="strik">
+	   <li class="listi"><a class="linkar2", href="https://www.flickr.com/photos/24240832@N08/page1/" target="_blank">Kljáströnd á Flickr</a></li>
+	   </ul> 
+	 </nav>
 	 
 	 <div class="haegri">
 	 <nav id="nav1">
 	   <ul>
 	   <li class="listi"><a class="linkar1", href="#heim" id="heima">Heim</a></li>
-	   <li class="listi"><a class="linkar1", href="#greinar" id="grein">Greinar</a></li>
-	   <li class="listi"><a class="linkar1", href="https://www.flickr.com/photos/24240832@N08/page1/" target="_blank">Myndir</a></li>
+	   <li class="listi"><a class="linkar1", href="myndir.html" id="myndir">Myndir</a></li>
 	   <li class="listi"><a class="linkar1", id="tenglar" href="#heim">Tenglar</a></li>
 	   </ul>	
 	 </nav>
 	 </div>
-	 
-	 <script type="text/javascript" src="javascript/jquery.js"></script>
-     <script type="text/javascript" src="javascript/effectar.js"></script>
    </body>
 </html>
