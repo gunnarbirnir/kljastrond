@@ -4,6 +4,7 @@
   position:absolute;
   top: 5%;
   text-align: center;
+  min-width: 500px;
  }
  
  .linkar1 {
