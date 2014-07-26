@@ -11,6 +11,10 @@ $(document).ready(function() {
    $("#logo").show();
    } }, 10);
    
+   if(($(window).height())<($("#nav3").height()) {
+   alert("Ath. Þú getur skrollað lengra niður");
+   }
+   
    //Fade inn í snjallsímum
    if(($(window).width())<600) {
    var teljari = Math.floor((Math.random() * 1500) + 500);
