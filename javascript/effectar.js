@@ -11,7 +11,7 @@ $(document).ready(function() {
    $("#logo").show();
    } }, 10);
    
-   if(($(window).height())<($("#nav3").height())) {
+   if((($(window).height())-($("#kassi").height()))<(($("#nav3").height())+($("#simalogo").height()))) {
    alert("Ath. Þú getur skrollað lengra niður");
    }
    
