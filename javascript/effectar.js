@@ -1,274 +1,197 @@
 $(document).ready(function() {
-
-  var teljari = Math.floor((Math.random() * 5) + 1);
+   
+   //Fade in a logo
+   $("#logo").hide().fadeIn(1500);
+   
+   window.setInterval(function(){
+   if(($(window).width())<400){
+   $("#logo").hide();
+   }
+   else if(($(window).width())>400) {
+   $("#logo").show();
+   } }, 10);
+   
+   //Fade inn í snjallsímum
+   if(($(window).width())<400) {
+   var teljari = Math.floor((Math.random() * 1500) + 500);
+   $("#heimsimalinkur").hide().fadeIn(teljari);  
+   teljari = Math.floor((Math.random() * 1500) + 500);
+   $("#greinarsimalinkur").hide().fadeIn(teljari);   
+   teljari = Math.floor((Math.random() * 1500) + 500);   
+   $("#umfjallanirsimalinkur").hide().fadeIn(teljari);
+   teljari = Math.floor((Math.random() * 1500) + 500);
+   $("#myndirsimalinkur").hide().fadeIn(teljari);
+   teljari = Math.floor((Math.random() * 1500) + 500);   
+   $("#umsimalinkur").hide().fadeIn(teljari);      
+   }
+   
+   //Til að myndin fylli út   
+   var breidd = $(window).width();
+   var haed3 = $(window).height();
+   var tala2 = haed3*1.5;
+   
+   if(breidd>tala2) {
+   if(haed3>790 || breidd>1490) {
+   $("body").css("background-size", breidd);
+   $("body").css("background-position", "center top");
+   }}
+   
+   if(breidd<=tala2) {
+   if(haed3>790 || breidd>1490) {
+   $("body").css("background-size", tala2);
+   $("body").css("background-position", "center top");
+   }}
+   
+   //Til að stilla merkinu upp í miðjuna
+   window.setInterval(function(){
+   var haed = $(window).height();
+   var haed2 = ($("#logo").width())*0.74;
+   var tala = (haed - haed2)/2;
+   $("#fyrirsogn").css("top", tala);
+   }, 10);
+   
+   //Um síðuna- og tenglatakkar
+   $("#vidhengi").hide();
+   $("#kassi2").hide();
+   var vidhengisteljari = 0;
+   
+   $("#um").click(function() {
+    $("#vidhengi").slideToggle(400);
+	$("#vidhengi2").slideUp(200);
+	vidhengisteljari++;
+   });
+   
+   window.setInterval(function(){
+   if((vidhengisteljari%2)!=0) {
+   $("#kassi2").fadeIn(400);
+   }
+   else if((vidhengisteljari%2)==0) {
+   $("#kassi2").fadeOut(400);
+   } }, 10);
+   
+   $("#vidhengi2").hide();
+   
+   $("#tenglar").click(function() {
+    $("#vidhengi2").slideToggle(300);
+	if((vidhengisteljari%2)!=0) {
+	$("#vidhengi").slideUp(200);
+	vidhengisteljari++;
+	}
+   });
+   
+   //Umsíðunatakki fyrir snjalltæki
+   $("#snjallumsida").hide();
+   
+   $("#umlinkur").click(function() {
+    $("#snjallumsida").slideDown(300);
+   });
+   
+   $("#hus2").click(function() {
+    $("#snjallumsida").slideUp(300);
+   });
+   
+   $("#umsimalinkur").click(function() {
+    $("#snjallumsida").slideDown(300);
+   });
+   
+   $("#hus").click(function() {
+    $("#snjallumsida").slideUp(300);
+   });
+   
+   //Hover effectar
+   $(".simalinkar").mouseenter(function() {
+    $(this).css("opacity","0.7");
+   });
   
-  if(teljari==1)
-	{
-    $("#banner").css("background-image","url(img/1.jpg)");
-	}
-	
-	else if(teljari==2)
-	{
-    $("#banner").css("background-image","url(img/2.jpg)");
-	}
-	
-	else if(teljari==3)
-	{
-    $("#banner").css("background-image","url(img/3.jpg)");
-	}
-	
-	else if(teljari==4)
-	{
-    $("#banner").css("background-image","url(img/4.jpg)");
-	}
-	
-	else if(teljari==5)
-	{
-    $("#banner").css("background-image","url(img/5.jpg)");
-	}
-
-  $("#nav2").hide();
-  $("#nav3").hide();
- 	
-  $("#next").click(function() {
-    
-    if(teljari==1)
-	{
-    $("#banner").css("background-image","url(img/2.jpg)");
-    teljari++;
-	}
-	
-	else if(teljari==2)
-	{
-    $("#banner").css("background-image","url(img/3.jpg)");
-    teljari++;
-	}
-	
-	else if(teljari==3)
-	{
-    $("#banner").css("background-image","url(img/4.jpg)");
-    teljari++;
-	}
-	
-	else if(teljari==4)
-	{
-    $("#banner").css("background-image","url(img/5.jpg)");
-    teljari++;
-	}
-	
-	else if(teljari==5)
-	{
-    $("#banner").css("background-image","url(img/1.jpg)");
-    teljari = 1;
-	}
-	});
-  
-  $("#prev").click(function() {
-  
-    if(teljari==1)
-	{
-    $("#banner").css("background-image","url(img/5.jpg)");
-    teljari= 5;
-	}
-	
-	else if(teljari==2)
-	{
-    $("#banner").css("background-image","url(img/1.jpg)");
-    teljari= 1;
-	}
-	
-	else if(teljari==3)
-	{
-    $("#banner").css("background-image","url(img/2.jpg)");
-    teljari= 2;
-	}
-	
-	else if(teljari==4)
-	{
-    $("#banner").css("background-image","url(img/3.jpg)");
-    teljari = 3;
-	}
-	
-	else if(teljari==5)
-	{
-    $("#banner").css("background-image","url(img/4.jpg)");
-    teljari = 4;
-	}
-  });
-  
-  $("#next").mouseenter(function() {
+   $(".simalinkar").mouseleave(function() {
     $(this).css("opacity","1.0");
-  });
+   });
   
-  $("#next").mouseleave(function() {
-    $(this).css("opacity","0.5");
-  });
+   $("#tenglar").mouseenter(function() {
+    $(this).css("opacity","0.7");
+   });
   
-  $("#prev").mouseenter(function() {
+   $("#tenglar").mouseleave(function() {
     $(this).css("opacity","1.0");
-  });
+   });
+   
+   $("#um").mouseenter(function() {
+    $(this).css("opacity","0.7");
+   });
   
-  $("#prev").mouseleave(function() {
-    $(this).css("opacity","0.5");
-  });
-  
-  $("#next2").mouseenter(function() {
+   $("#um").mouseleave(function() {
     $(this).css("opacity","1.0");
-  });
+   });
+   
+   $(".linkar1").mouseenter(function() {
+    $(this).css("border-bottom","medium solid white");
+   });
   
-  $("#next2").mouseleave(function() {
-    $(this).css("opacity","0.5");
-  });
+   $(".linkar1").mouseleave(function() {
+    $(this).css("border-bottom","none");
+   });
+   
+   $("#umlinkur").mouseenter(function() {
+    $(this).css("opacity","0.7");
+   });
   
-  $("#prev2").mouseenter(function() {
+   $("#umlinkur").mouseleave(function() {
     $(this).css("opacity","1.0");
-  });
+   });
+   
+   $("#vh2nr1").mouseenter(function() {
+    $("#1vh2").css("background-color","rgba(0,0,0,0.7)");
+   });
   
-  $("#prev2").mouseleave(function() {
-    $(this).css("opacity","0.5");
-  });
+   $("#vh2nr1").mouseleave(function() {
+    $("#1vh2").css("background-color","rgba(0,0,0,0.5)");
+   });
+   
+   $("#vh2nr2").mouseenter(function() {
+    $("#2vh2").css("background-color","rgba(0,0,0,0.7)");
+   });
   
-  $(".linkar1").mouseenter(function() {
-    $(this).css("color","#afd5fc");
-  });
+   $("#vh2nr2").mouseleave(function() {
+    $("#2vh2").css("background-color","rgba(0,0,0,0.5)");
+   });
+   
+   $("#vh2nr3").mouseenter(function() {
+    $("#3vh2").css("background-color","rgba(0,0,0,0.7)");
+   });
   
-  $(".linkar1").mouseleave(function() {
-    $(this).css("color","white");
-  });
+   $("#vh2nr3").mouseleave(function() {
+    $("#3vh2").css("background-color","rgba(0,0,0,0.5)");
+   });
+   
+   $("#vh2nr4").mouseenter(function() {
+    $("#4vh2").css("background-color","rgba(0,0,0,0.7)");
+   });
   
-  $("#tenglar").click(function() {
-    $("#nav2").slideToggle(400);
-  });
-
-  $("#heima").click(function() {
-    $("#nav2").slideUp(0);
-  });
+   $("#vh2nr4").mouseleave(function() {
+    $("#4vh2").css("background-color","rgba(0,0,0,0.5)");
+   });
+   
+   $("#vh2nr5").mouseenter(function() {
+    $("#5vh2").css("background-color","rgba(0,0,0,0.7)");
+   });
   
-  $("#myndir").click(function() {
-    $("#nav2").slideUp(0);
-  });
+   $("#vh2nr5").mouseleave(function() {
+    $("#5vh2").css("background-color","rgba(0,0,0,0.5)");
+   });
+   
+   $("#vh2nr6").mouseenter(function() {
+    $("#6vh2").css("background-color","rgba(0,0,0,0.7)");
+   });
   
-  $("#tenglar2").click(function() {
-    $("#nav3").slideToggle(400);
-  });
-
-  $("#heima").click(function() {
-    $("#nav3").slideUp(0);
-  });
+   $("#vh2nr6").mouseleave(function() {
+    $("#6vh2").css("background-color","rgba(0,0,0,0.5)");
+   });
+   
+   $("#hus2").mouseenter(function() {
+    $(this).css("opacity","0.7");
+   });
   
-  $("#myndir").click(function() {
-    $("#nav3").slideUp(0);
-  });
-  
-  $(".linkar2").mouseenter(function() {
-    $(this).css("background-color", "#e9e9e9");
-  });
-  
-  $(".linkar2").mouseleave(function() {
-    $(this).css("background-color", "white");
-  });
-
-  $(".einn").mouseenter(function() {
-    $(this).css("border", "solid #059ac8");
-  });
-  
-  $(".einn").mouseleave(function() {
-    $(this).css("border", "solid #8b8b8b");
-  });
-  
-  $(".tveir").mouseenter(function() {
-    $(this).css("border", "solid #059ac8");
-  });
-  
-  $(".tveir").mouseleave(function() {
-    $(this).css("border", "solid #8b8b8b");
-  });
-  
-  $(".þrir").mouseenter(function() {
-    $(this).css("border", "solid #059ac8");
-  });
-  
-  $(".þrir").mouseleave(function() {
-    $(this).css("border", "solid #8b8b8b");
-  });
-  
-  $(".fjorir").mouseenter(function() {
-    $(this).css("border", "solid #059ac8");
-  });
-  
-  $(".fjorir").mouseleave(function() {
-    $(this).css("border", "solid #8b8b8b");
-  });
-  
-  $(".fimm").mouseenter(function() {
-    $(this).css("border", "solid #059ac8");
-  });
-  
-  $(".fimm").mouseleave(function() {
-    $(this).css("border", "solid #8b8b8b");
-  });
-  
-  $(".sex").mouseenter(function() {
-    $(this).css("border", "solid #059ac8");
-  });
-  
-  $(".sex").mouseleave(function() {
-    $(this).css("border", "solid #8b8b8b");
-  });
-  
-  $(".sjo").mouseenter(function() {
-    $(this).css("border", "solid #059ac8");
-  });
-  
-  $(".sjo").mouseleave(function() {
-    $(this).css("border", "solid #8b8b8b");
-  });
-  
-  $(".atta").mouseenter(function() {
-    $(this).css("border", "solid #059ac8");
-  });
-  
-  $(".atta").mouseleave(function() {
-    $(this).css("border", "solid #8b8b8b");
-  });
-  
-  $(".niu").mouseenter(function() {
-    $(this).css("border", "solid #059ac8");
-  });
-  
-  $(".niu").mouseleave(function() {
-    $(this).css("border", "solid #8b8b8b");
-  });
-  
-  $(".tiu").mouseenter(function() {
-    $(this).css("border", "solid #059ac8");
-  });
-  
-  $(".tiu").mouseleave(function() {
-    $(this).css("border", "solid #8b8b8b");
-  });
-  
-  $(".ellefu").mouseenter(function() {
-    $(this).css("border", "solid #059ac8");
-  });
-  
-  $(".ellefu").mouseleave(function() {
-    $(this).css("border", "solid #8b8b8b");
-  });
-  
-  $("#bein").mouseenter(function() {
-    $(this).css("border", "solid #059ac8");
-  });
-  
-  $("#bein").mouseleave(function() {
-    $(this).css("border", "solid #8b8b8b");
-  });
-  
-  $("#bein2").mouseenter(function() {
-    $(this).css("border", "solid #059ac8");
-  });
-  
-  $("#bein2").mouseleave(function() {
-    $(this).css("border", "solid #8b8b8b");
-  });
+   $("#hus2").mouseleave(function() {
+    $(this).css("opacity","1.0");
+   });
 });
