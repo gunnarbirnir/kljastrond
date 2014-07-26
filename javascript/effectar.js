@@ -4,15 +4,15 @@ $(document).ready(function() {
    $("#logo").hide().fadeIn(1500);
    
    window.setInterval(function(){
-   if(($(window).width())<400){
+   if(($(window).width())<600){
    $("#logo").hide();
    }
-   else if(($(window).width())>400) {
+   else if(($(window).width())>600) {
    $("#logo").show();
    } }, 10);
    
    //Fade inn í snjallsímum
-   if(($(window).width())<400) {
+   if(($(window).width())<600) {
    var teljari = Math.floor((Math.random() * 1500) + 500);
    $("#heimsimalinkur").hide().fadeIn(teljari);  
    teljari = Math.floor((Math.random() * 1500) + 500);

@@ -2,7 +2,7 @@
 
  #nav1 {
   position:absolute;
-  top: 5%;
+  top: 3%;
   left: 0%;
   right: 0%;
   text-align: center;
@@ -11,6 +11,7 @@
  
  .linkar1 {
   padding-bottom: 0.5%;
+  font-size: 130%;
   }
   
   #greinarlinkur {
@@ -66,7 +67,7 @@
  visibility: hidden;
  }
  
- @media screen and (max-width: 400px) {
+ @media screen and (max-width: 600px) {
  
  .linkar1 {
  display: none;
