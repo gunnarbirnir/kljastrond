@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+.greinar {
+ width: 30%;
+ margin-left: 1.5%;
+ margin-right: 1.5%;
+ }
+
+@media screen and (max-width: 850px) {
+
+#tenglar {
+display: none;
+}
+
+}
+
+@media screen and (max-width: 650px) {
+
+.greinar {
+ width: 45%;
+ margin-left: 2.25%;
+ margin-right: 2.25%;
+ }
+
+}
+
+@media screen and (max-width: 500px) {
+
+.greinar {
+ width: 90%;
+ margin-left: 4.5%;
+ margin-right: 4.5%;
+ }
+
+#logo {
+display: none;
+}
+
+#logo2 {
+display: block;
+}
+
+#heim  {
+display: none;
+}
+
+.linkar1 {
+margin-right: 25px;
+margin-left: 5px;
+}
+}
+
+@media screen and (max-width: 230px) {
+
+#logo2 {
+display: none;
+}
+
+.linkar1 {
+padding-bottom: 12px;
+}
+}

@@ -1,0 +1,298 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, div {
+  display: block;
+ }
+   
+html, body, h1, h2, h3, ul, li, a, p, 
+article, aside, footer, header, main, nav, section {
+  padding: 0px;
+  margin: 0px;
+ }
+ 
+ html {
+ overflow: auto;
+ }
+ 
+ body {
+ background-color: #f5f5f5;
+ overflow: auto;
+ }
+
+#nav1 {
+  position: fixed; top: 0%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.85);
+ }
+  
+#logo {
+  position: relative;
+  margin-top: 9px;
+  margin-bottom: 7px;
+  margin-left: 20px;
+  width: 130px;
+  float: left;
+  display: block;
+ }
+ 
+ #logo2 {
+  position: relative;
+  margin-top: 9px;
+  margin-bottom: 7px;
+  margin-left: 20px;
+  width: 40px;
+  float: left;
+  display: none;
+ }
+
+.listi {
+  display: inline;
+ }
+
+.linkar1 {
+  text-decoration: none;
+  font-family: 'aller_lightregular', Arial, sans-serif;
+  color: #bdbdbd;
+  font-size: 100%;
+  position: relative;
+  float: right;
+  margin-top: 25px;
+  margin-right: 50px;
+  margin-left: -10px;
+  padding-bottom: 8px;
+  }
+  
+  #vidhengi {
+ position: fixed; top: 60px; right: 40px;
+ background-color: #d0d0d0;
+ border-bottom: thin solid #d0d0d0;
+ border-left: thin solid #d0d0d0;
+ border-right: thin solid #d0d0d0;
+ margin-top: 1px;
+ }
+ 
+ #tenglar {
+ cursor: pointer;
+ }
+ 
+ .vh2 {
+ position: relative;
+ list-style: none;
+ padding: 6px;
+ background-color: white;
+ text-align: center;
+ margin-top: 1px;
+ width: 140px;
+ }
+ 
+ .vh2nr  {
+ text-decoration: none;
+ color: black;
+ font-family: 'allerregular', arial, sans-serif;
+ font-size: 14px;
+ }
+ 
+ #tenglaor {
+ width: 10px;
+ margin-left: 8px;
+ border: none;
+ }
+ 
+ #tenglaor2 {
+ width: 10px;
+ margin-left: 8px;
+ border: none;
+ }
+ 
+ #tilhlidar {
+ width: 25%;
+ position: absolute; top: 57px; right: 0%;
+ background-color: white;
+ }
+ 
+ #tilhlidar2 {
+ width: 25%;
+ position: fixed; top: 57px; right: 0%; bottom: 0%;
+ background-color: white;
+ }
+ 
+ #myndarammi {
+ width: 70%;
+ position: fixed; top: 77px; bottom: 20px; left: 3%;
+ background-image: url("../img/myndir/1.jpg");
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center center;
+ }
+ 
+ #myndatextirammi {
+ width: 20%;
+ padding-right: 2.5%;
+ padding-left: 2.5%;
+ height: auto;
+ position: fixed; bottom: 0px; right: 0px;
+ background-color: white;
+ box-shadow: 4px 0px 8px 0px #c1c1c1;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ }
+ 
+ #myndatexti {
+ color: #303030;
+ font-family: 'open_sansregular', Arial, sans-serif;
+ font-size: 13px;
+ line-height: 1.4;
+ position: relative;
+ }
+ 
+ #litlarmyndirrammi {
+ width: 80%;
+ padding-left: 10%;
+ padding-right: 10%;
+ padding-top: 20px;
+ background-color: white;
+ position: relative;
+ overflow: auto;
+ }
+ 
+ .litlarmyndir {
+ width: 100%;
+ height: auto;
+ opacity: 0.6;
+ display: block;
+ }
+ 
+ .litlarmyndirlinkur {
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ display: inline-block;
+ width: 20%;
+ height: auto;
+ float: left;
+ margin: 3% 2.5% 3% 2.5%;
+ }
+ 
+ #orvarkassi {
+ position: fixed; bottom: 20px; left: 20px;
+ width: 130px;
+ height: 60px;
+ background-color: red;
+ border-radius: 4px;
+ border: thin solid #acacac;
+ background-color: rgba(255, 255, 255, 0.8);
+ }
+ 
+ .orvar {
+ width: 25px;
+ height: 41px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ }
+ 
+ #or1 {
+ padding-right: 19.5px;
+ margin-left: 18px;
+ border-right: thin solid #acacac;
+ cursor: pointer;
+ }
+ 
+ #or2 {
+ padding-left: 19.5px;
+ margin-right: 18px;
+ cursor: pointer;
+ }
+ 
+ #or3 {
+ padding-right: 19.5px;
+ margin-left: 18px;
+ border-right: thin solid #acacac;
+ cursor: pointer;
+ }
+ 
+ #or4 {
+ padding-left: 19.5px;
+ margin-right: 18px;
+ cursor: pointer;
+ }
+ 
+ .orvakassar {
+ position: absolute;
+ }
+ 
+ @font-face {
+    font-family: 'aleoregular';
+    src: url('../fonts/Aleo-Regular-webfont.eot');
+    src: url('../fonts/Aleo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aleo-Regular-webfont.woff') format('woff'),
+         url('../fonts/Aleo-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Aleo-Regular-webfont.svg#aleoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aleobold';
+    src: url('../fonts/Aleo-Bold-webfont.eot');
+    src: url('../fonts/Aleo-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aleo-Bold-webfont.woff') format('woff'),
+         url('../fonts/Aleo-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Aleo-Bold-webfont.svg#aleobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'aller_lightregular';
+    src: url('../fonts/aller_lt-webfont.eot');
+    src: url('../fonts/aller_lt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aller_lt-webfont.woff') format('woff'),
+         url('../fonts/aller_lt-webfont.ttf') format('truetype'),
+         url('../fonts/aller_lt-webfont.svg#aller_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_condensedlight';
+    src: url('../fonts/RobotoCondensed-Light-webfont.eot');
+    src: url('../fonts/RobotoCondensed-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Light-webfont.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Light-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Light-webfont.svg#roboto_condensedlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exoregular';
+    src: url('../fonts/exo-regular-webfont.eot');
+    src: url('../fonts/exo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo-regular-webfont.woff') format('woff'),
+         url('../fonts/exo-regular-webfont.ttf') format('truetype'),
+         url('../fonts/exo-regular-webfont.svg#exoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'allerregular';
+    src: url('../fonts/aller_rg-webfont.eot');
+    src: url('../fonts/aller_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aller_rg-webfont.woff') format('woff'),
+         url('../fonts/aller_rg-webfont.ttf') format('truetype'),
+         url('../fonts/aller_rg-webfont.svg#allerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

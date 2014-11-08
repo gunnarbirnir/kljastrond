@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+#tenglar {
+display: none;
+}
+
+.myndasyning {
+height: 400px;
+}
+
+.bannermyndir, #umtexti, #fyrirsogn1, 
+#forsidugreinarheild, #forsidumyndir, #umsiduna {
+top: 400px;
+}
+
+#fleirigreinar {
+background-color: #ff5a5f;
+border-color: #ff5a5f;
+}
+
+#fleirigreinarlinkur {
+color: white;
+}
+
+#fleirimyndir {
+background-color: #0099f1;
+border-color: #0099f1;
+}
+
+#forsidumyndir {
+height: 420px;
+}
+
+#fleirimyndir {
+right: 20px;
+bottom: 15px;
+}
+
+#myndirfyrirsogn {
+top: 20px;
+left: 25px;
+}
+
+@media screen and (max-width: 700px) {
+
+.forsidugreinar {
+width: 48%;
+margin-bottom: 15px;
+}
+
+#forsidugrein2 {
+left: 4%;
+}
+ 
+#storforsidugrein1 {
+width: 100%;
+left: 0px;
+height: 250px;
+margin-left: 0px;
+}
+
+#forsidugreinarheild2 {
+padding-bottom: 0px;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+.forsidugreinar {
+width: 100%;
+margin-bottom: 20px;
+left: 0px;
+}
+
+#storforsidugrein1 {
+height: auto;
+}
+
+.myndasyning {
+height: 300px;
+}
+
+.bannermyndir, #umtexti, #fyrirsogn1, 
+#forsidugreinarheild, #forsidumyndir, #umsiduna {
+top: 300px;
+}
+
+#umfyrirsogn, #myndirfyrirsogn,  #umfyrirsogn2 {
+font-size: 30px;
+}
+
+#greinafyrirsogn {
+font-size: 32px;
+}
+
+.um, #greinaundirfyrirsogn, #greinaundirfyrirsogn2 {
+font-size: 14px;
+}
+
+#logo {
+display: none;
+}
+
+#logo2 {
+display: block;
+}
+
+#heim  {
+display: none;
+}
+
+.linkar1 {
+margin-right: 25px;
+margin-left: 5px;
+}
+
+#forsidumyndir {
+height: 350px;
+}
+
+#umsjonheild {
+ width: 202px;
+ }
+ 
+ #pabbi {
+ margin-right: 0px;
+ }
+ 
+ #eg {
+ margin-left: 0px;
+ }
+ 
+ #myndirfyrirsogn {
+ text-align: center;
+ left: 0px;
+ width: 100%;
+ }
+ 
+ #fleirimyndir {
+ right: 0px; left: 50%;
+ margin-left: -57.5px;
+ }
+}
+
+@media screen and (max-width: 230px) {
+
+#logo2 {
+display: none;
+}
+
+.linkar1 {
+padding-bottom: 12px;
+}
+
+#umsjonheild {
+ width: 90%;
+ margin-right: 5%;
+ margin-left: 5%;
+}
+
+#pabbi {
+ margin-right: 0px;
+ }
+ 
+ #eg {
+ margin-left: 0px;
+ }
+ 
+ .umsjonmynd {
+ width: 90%;
+ margin-left: 5%;
+ margin-right: 5%;
+ }
+ 
+ .umsjontexti {
+ width: 100%;
+ }
+ 
+ .upplysingar {
+ width: 100%;
+ }
+ 
+ .fb {
+ width: 20%;
+ margin-left: 40%;
+ margin-right: 40%;
+ }
+ 
+ #oli {
+ width: 100%;
+ }
+ 
+ #anna {
+ width: 100%;
+ }
+ 
+ .hringur {
+ width: 60%;
+ height: auto;
+ margin-left: 10%;
+ margin-right: 10%;
+ }
+
+}

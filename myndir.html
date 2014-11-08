@@ -3,70 +3,106 @@
    <head>
      <meta charset= "UTF-8">
 	 <title>Kljáströnd | Myndir</title>
-	 <link rel="stylesheet" type="text/css" href="css/utlit.css">
-	 <link rel= "shortcut icon" href= "img/logo3.png" type= "image/png">
-	 <script type="text/javascript" src="javascript/jquery.js"></script>
-     <script type="text/javascript" src="javascript/effectar.js"></script>
-	 <script type="text/javascript" src="javascript/myndaeffectar1.js"></script>
+	 <meta name="viewport" content="width=device-width">
+	 <link rel="stylesheet" type="text/css" href="css/myndirutlit.css">
+	 <link rel="shortcut icon" href= "img/logo4.png" type= "image/png">
+	 <link rel="stylesheet" href="css/myndirresponsive.css" media="screen and (max-width: 800px)">
+	 <!--[if lt IE 9]>
+    <script>
+      document.createElement("article");
+      document.createElement("aside");
+      document.createElement("footer");
+      document.createElement("header");
+      document.createElement("main");
+      document.createElement("nav");
+      document.createElement("section");
+    </script>
+    <![endif]--> 
+	<script type="text/javascript" src="javascript/jquery.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="javascript/myndireffectar.js" charset="UTF-8"></script>
    </head>
    <body>
-	 <div id="myndasida">
-	 <p id="jofnun">
-	 <a href="mynd1.html"><img src="img/myndir/1.jpg" class="myndarod" id="m1"></a>
-	 <a href="mynd2.html"><img src="img/myndir/2.jpg" class="myndarod"></a>
-	 <a href="mynd3.html"><img src="img/myndir/3.jpg" class="myndarod"></a>
-	 <a href="mynd4.html"><img src="img/myndir/4.jpg" class="myndarod"></a>
-	 <a href="mynd5.html"><img src="img/myndir/5.jpg" class="myndarod"></a>
-	 <a href="mynd6.html"><img src="img/myndir/6.jpg" class="myndarod"></a>
-	 <a href="mynd7.html"><img src="img/myndir/7.jpg" class="myndarod"></a>
-	 <a href="mynd8.html"><img src="img/myndir/8.jpg" class="myndarod"></a>
-	 <a href="mynd9.html"><img src="img/myndir/9.jpg" class="myndarod"></a> 
-	 <a href="mynd10.html"><img src="img/myndir/10.jpg" class="myndarod"></a>
-	 <a href="mynd11.html"><img src="img/myndir/11.jpg" class="myndarod"></a>
-	 <a href="mynd12.html"><img src="img/myndir/12.jpg" class="myndarod"></a>
-	 <a href="mynd13.html"><img src="img/myndir/13.jpg" class="myndarod"></a>
-	 <a href="mynd14.html"><img src="img/myndir/14.jpg" class="myndarod"></a>
-	 <a href="mynd15.html"><img src="img/myndir/15.jpg" class="myndarod"></a>
-	 <a href="mynd16.html"><img src="img/myndir/16.jpg" class="myndarod"></a>
-	 <a href="mynd17.html"><img src="img/myndir/17.jpg" class="myndarod"></a>
-	 <a href="mynd18.html"><img src="img/myndir/18.jpg" class="myndarod"></a>
-	 <a href="mynd19.html"><img src="img/myndir/19.jpg" class="myndarod"></a>
-	 <a href="mynd20.html"><img src="img/myndir/20.jpg" class="myndarod"></a>
-	 <a href="mynd21.html"><img src="img/myndir/21.jpg" class="myndarod"></a>
-	 <a href="mynd22.html"><img src="img/myndir/22.jpg" class="myndarod"></a>
-	 <a href="mynd23.html"><img src="img/myndir/23.jpg" class="myndarod"></a>
-	 <a href="mynd24.html"><img src="img/myndir/24.jpg" class="myndarod"></a>
-	 <a href="mynd1.html"><img src="img/myndir/1.jpg" id="plat">
-	 </p>
-	 </div>
-
-	 <nav id="nav3">
-	   <ul>
-	   <li class="listi"><a class="linkar2", href="http://www.akureyri.is/" target="_blank">Akureyri</a></li>
-	   <img src="img/line2.png" width="1" height= "15" class="strik">
-	   <li class="listi"><a class="linkar2", href="http://www.aba.is/" target="_blank">Bátar í Eyjafirði</a></li>
-	   <img src="img/line2.png" width="1" height= "15" class="strik">
-	   <li class="listi"><a class="linkar2", href="http://www.esveit.is/" target="_blank">Eyjafjarðarsveit</a></li>
-	   <img src="img/line2.png" width="1" height= "15" class="strik">
-	   <li class="listi"><a class="linkar2", href="http://www.fjordungar.com/" target="_blank">Fjörðungar</a></li>
-	   <img src="img/line2.png" width="1" height= "15" class="strik">
-	   <li class="listi"><a class="linkar2", href="http://www.grenivik.is/" target="_blank">Grenivík</a></li>
-	   <img src="img/line2.png" width="1" height= "15" class="strik">
-	   <li class="listi"><a class="linkar2", href="https://www.flickr.com/photos/24240832@N08/page1/" target="_blank">Kljáströnd á Flickr</a></li>
-	   </ul> 
-	 </nav>
-
-	 <span id="heim">
-	 </span>
-
-	 <div class="haegri">
-	 <nav id="nav1">
-	   <ul>
-	   <li class="listi"><a class="linkar1", href="index.html" id="heima2">Heim</a></li>
-	   <li class="listi"><a class="linkar1", href="#heim" id="myndir2">Myndir</a></li>
-	   <li class="listi"><a class="linkar1", id="tenglar2" href="#heim">Tenglar</a></li>
-	   </ul>	
-	 </nav>
-	 </div>
+   <div id="tilhlidar2">
+   </div>
+    <div id="tilhlidar">
+	   <div id="litlarmyndirrammi">
+	      <a class="litlarmyndirlinkur" id="litilmynd1"><img src="img/kassi3.png" class="litlarmyndir" id="litilm1"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd2"><img src="img/kassi3.png" class="litlarmyndir" id="litilm2"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd3"><img src="img/kassi3.png" class="litlarmyndir" id="litilm3"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd4"><img src="img/kassi3.png" class="litlarmyndir" id="litilm4"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd5"><img src="img/kassi3.png" class="litlarmyndir" id="litilm5"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd6"><img src="img/kassi3.png" class="litlarmyndir" id="litilm6"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd7"><img src="img/kassi3.png" class="litlarmyndir" id="litilm7"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd8"><img src="img/kassi3.png" class="litlarmyndir" id="litilm8"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd9"><img src="img/kassi3.png" class="litlarmyndir" id="litilm9"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd10"><img src="img/kassi3.png" class="litlarmyndir" id="litilm10"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd11"><img src="img/kassi3.png" class="litlarmyndir" id="litilm11"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd12"><img src="img/kassi3.png" class="litlarmyndir" id="litilm12"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd13"><img src="img/kassi3.png" class="litlarmyndir" id="litilm13"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd14"><img src="img/kassi3.png" class="litlarmyndir" id="litilm14"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd15"><img src="img/kassi3.png" class="litlarmyndir" id="litilm15"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd16"><img src="img/kassi3.png" class="litlarmyndir" id="litilm16"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd17"><img src="img/kassi3.png" class="litlarmyndir" id="litilm17"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd18"><img src="img/kassi3.png" class="litlarmyndir" id="litilm18"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd19"><img src="img/kassi3.png" class="litlarmyndir" id="litilm19"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd20"><img src="img/kassi3.png" class="litlarmyndir" id="litilm20"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd21"><img src="img/kassi3.png" class="litlarmyndir" id="litilm21"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd22"><img src="img/kassi3.png" class="litlarmyndir" id="litilm22"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd23"><img src="img/kassi3.png" class="litlarmyndir" id="litilm23"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd24"><img src="img/kassi3.png" class="litlarmyndir" id="litilm24"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd25"><img src="img/kassi3.png" class="litlarmyndir" id="litilm25"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd26"><img src="img/kassi3.png" class="litlarmyndir" id="litilm26"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd27"><img src="img/kassi3.png" class="litlarmyndir" id="litilm27"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd28"><img src="img/kassi3.png" class="litlarmyndir" id="litilm28"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd29"><img src="img/kassi3.png" class="litlarmyndir" id="litilm29"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd30"><img src="img/kassi3.png" class="litlarmyndir" id="litilm30"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd31"><img src="img/kassi3.png" class="litlarmyndir" id="litilm31"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd32"><img src="img/kassi3.png" class="litlarmyndir" id="litilm32"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd33"><img src="img/kassi3.png" class="litlarmyndir" id="litilm33"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd34"><img src="img/kassi3.png" class="litlarmyndir" id="litilm34"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd35"><img src="img/kassi3.png" class="litlarmyndir" id="litilm35"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd36"><img src="img/kassi3.png" class="litlarmyndir" id="litilm36"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd37"><img src="img/kassi3.png" class="litlarmyndir" id="litilm37"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd38"><img src="img/kassi3.png" class="litlarmyndir" id="litilm38"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd39"><img src="img/kassi3.png" class="litlarmyndir" id="litilm39"></a>
+		  <a class="litlarmyndirlinkur" id="litilmynd40"><img src="img/kassi3.png" class="litlarmyndir" id="litilm40"></a>
+		  </div>
+	   </div>
+	   <div id="myndatextirammi">
+	      <p id="myndatexti">F.v. Soffía Vigfúsdóttir, Anna María Vigfúsdóttir og Þorgerður dóttir Rósu sem var systir Vigfúsar. Rósa bjó lengi á Seyðisfirði.</p>
+	   </div>
+	</div>
+	<div id="myndarammi">
+	</div>
+	<div id="orvarkassi">
+	  <div class="orvakassar">
+	   <img src="img/or3.png" class="orvar" id="or3">
+	   <img src="img/or4.png" class="orvar" id="or4">
+	  </div>
+	  <div class="orvakassar">
+	   <img src="img/or1.png" class="orvar" id="or1">
+	   <img src="img/or2.png" class="orvar" id="or2">
+	  </div>
+	</div>
+	<nav id="nav1">
+	      <a href="index.html"><img src="img/logo1nr2.png" id="logo"></a>
+		  <a href="index.html"><img src="img/logo1nr3.png" id="logo2"></a>
+	     <ul>
+		  <li class="listi" id="tenglar"><a class="linkar1">Tenglar<img src="img/tenglaor.png" id="tenglaor"><img src="img/tenglaor2.png" id="tenglaor2"></a></li>
+		  <li class="listi"><a class="linkar1", href="myndir.html." id="myndir">Myndir</a></li>
+		  <li class="listi"><a class="linkar1", href="skjol.html" id="skjol">Skjöl</a></li>
+		  <li class="listi"><a class="linkar1", id="heim", href="index.html">Heim</a></li>
+	     </ul>
+	  </nav>
+	  <div id="vidhengi">
+	  <ul>
+	   <a href="http://www.akureyri.is/" class="vh2nr" target="_blank"><li class="vh2">Akureyri</li></a>
+	   <a href="http://www.aba.is/" class="vh2nr" target="_blank"><li class="vh2">Bátar í Eyjafirði</li></a>
+	   <a href="http://www.esveit.is/" class="vh2nr" target="_blank"><li class="vh2">Eyjafjarðarsveit</li></a>
+	   <a href="http://www.fjordungar.com/" class="vh2nr" target="_blank"><li class="vh2">Fjörðungar</li></a>
+	   <a href="http://www.grenivik.is/" class="vh2nr" target="_blank"><li class="vh2">Grenivík</li></a>
+	   <a href="https://www.flickr.com/photos/24240832@N08/page1/" class="vh2nr" target="_blank"><li class="vh2">Kljáströnd á Flickr</li></a>
+	  </ul>
+	</div>
    </body>
 </html>

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+#tenglar {
+display: none;
+}
+
+#myndarammi {
+ width: auto;
+ right: 15px;
+ left: 15px;
+ bottom: 85px;
+ top: 72px;
+}
+
+#tilhlidar, #tilhlidar2 {
+display: none;
+}
+
+#myndatextirammi {
+right: 0px;
+left: 0px;
+padding-left: 15px;
+padding-right: 15px;
+height: 40px;
+overflow-y: auto;
+width: auto;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+#orvarkassi {
+bottom: 85px;
+right: 15px;
+left: auto;
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 500px) {
+
+#logo {
+display: none;
+}
+
+#logo2 {
+display: block;
+}
+
+#heim  {
+display: none;
+}
+
+.linkar1 {
+margin-right: 25px;
+margin-left: 5px;
+}
+
+#myndatextirammi {
+display: none;
+}
+
+#myndarammi {
+bottom: 90px;
+}
+
+#orvarkassi {
+bottom: 15px;
+left: 0px; right: 0px;
+margin-left: auto;
+margin-right: auto;
+}
+
+}
+
+@media screen and (max-width: 230px) {
+
+#logo2 {
+display: none;
+}
+
+.linkar1 {
+padding-bottom: 12px;
+}
+}

@@ -1,0 +1,239 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, div {
+  display: block;
+ }
+   
+html, body, h1, h2, h3, ul, li, a, p, 
+article, aside, footer, header, main, nav, section {
+  padding: 0px;
+  margin: 0px;
+ }
+ 
+ body {
+ background-color: #f5f5f5;
+ overflow: auto;
+ }
+
+#nav1 {
+  position: fixed; top: 0%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.85);
+ }
+  
+#logo {
+  position: relative;
+  margin-top: 9px;
+  margin-bottom: 7px;
+  margin-left: 20px;
+  width: 130px;
+  float: left;
+  display: block;
+ }
+ 
+ #logo2 {
+  position: relative;
+  margin-top: 9px;
+  margin-bottom: 7px;
+  margin-left: 20px;
+  width: 40px;
+  float: left;
+  display: none;
+ }
+
+.listi {
+  display: inline;
+ }
+
+.linkar1 {
+  text-decoration: none;
+  font-family: 'aller_lightregular', Arial, sans-serif;
+  color: #bdbdbd;
+  font-size: 100%;
+  position: relative;
+  float: right;
+  margin-top: 25px;
+  margin-right: 50px;
+  margin-left: -10px;
+  padding-bottom: 8px;
+  }
+  
+  #vidhengi {
+ position: fixed; top: 60px; right: 40px;
+ background-color: #d0d0d0;
+ border-bottom: thin solid #d0d0d0;
+ border-left: thin solid #d0d0d0;
+ border-right: thin solid #d0d0d0;
+ margin-top: 1px;
+ }
+ 
+ #tenglar {
+ cursor: pointer;
+ }
+ 
+ .vh2 {
+ position: relative;
+ list-style: none;
+ padding: 6px;
+ background-color: white;
+ text-align: center;
+ margin-top: 1px;
+ width: 140px;
+ }
+ 
+ .vh2nr  {
+ text-decoration: none;
+ color: black;
+ font-family: 'allerregular', arial, sans-serif;
+ font-size: 14px;
+ }
+ 
+ #tenglaor {
+ width: 10px;
+ margin-left: 8px;
+ border: none;
+ }
+ 
+ #tenglaor2 {
+ width: 10px;
+ margin-left: 8px;
+ border: none;
+ }
+ 
+ .greinar {
+ width: 20%;
+ margin-left: 2.35%;
+ margin-right: 2.35%;
+ height: auto;
+ display: inline-block;
+ margin-top: 30px;
+ background-position: center center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ border: thin solid #cdcdcd;
+ position: relative;
+ }
+ 
+ #greinarheild {
+ margin-top: 60px;
+ width: 100%;
+ font-size: 0px;
+ margin-bottom: 35px;
+ }
+ 
+ #greinarheild2 {
+ width: 96%;
+ margin-left: auto;
+ margin-right: auto;
+ max-width: 1500px;
+ }
+ 
+ .greinakassar{
+ width: 100%;
+ display: block;
+ opacity: 0.0;
+ }
+ 
+ .greinanofn {
+ font-size: 16px;
+ font-family: 'aleobold', Arial, sans-serif;
+ position: absolute; bottom: 0px; left: 0px; right: 0px;
+ padding: 10px;
+ background-color: rgba(255,255,255,1.0);
+ color: #111111;
+ box-shadow: 0px -5px 20px -7px #ababab;
+ }
+ 
+ .greinanofn2 {
+ font-size: 13px;
+ font-family: 'open_sansregular', Arial, sans-serif;
+ color: white;
+ position: absolute; top: 10px; right: 10px;
+ background-color: rgba(0,0,0,0.65);
+ padding: 4px 5px 4px 5px;
+ }
+ 
+ #gd2, #gd14 {
+ background-color: rgba(255,90,95,1.0);
+ }
+ 
+ #gd1, #gd15 {
+ background-color: rgba(0,153,241,1.0);
+ }
+ 
+ @font-face {
+    font-family: 'aleoregular';
+    src: url('../fonts/Aleo-Regular-webfont.eot');
+    src: url('../fonts/Aleo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aleo-Regular-webfont.woff') format('woff'),
+         url('../fonts/Aleo-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Aleo-Regular-webfont.svg#aleoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aleobold';
+    src: url('../fonts/Aleo-Bold-webfont.eot');
+    src: url('../fonts/Aleo-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aleo-Bold-webfont.woff') format('woff'),
+         url('../fonts/Aleo-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Aleo-Bold-webfont.svg#aleobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'aller_lightregular';
+    src: url('../fonts/aller_lt-webfont.eot');
+    src: url('../fonts/aller_lt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aller_lt-webfont.woff') format('woff'),
+         url('../fonts/aller_lt-webfont.ttf') format('truetype'),
+         url('../fonts/aller_lt-webfont.svg#aller_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_condensedlight';
+    src: url('../fonts/RobotoCondensed-Light-webfont.eot');
+    src: url('../fonts/RobotoCondensed-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Light-webfont.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Light-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Light-webfont.svg#roboto_condensedlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exoregular';
+    src: url('../fonts/exo-regular-webfont.eot');
+    src: url('../fonts/exo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo-regular-webfont.woff') format('woff'),
+         url('../fonts/exo-regular-webfont.ttf') format('truetype'),
+         url('../fonts/exo-regular-webfont.svg#exoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'allerregular';
+    src: url('../fonts/aller_rg-webfont.eot');
+    src: url('../fonts/aller_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aller_rg-webfont.woff') format('woff'),
+         url('../fonts/aller_rg-webfont.ttf') format('truetype'),
+         url('../fonts/aller_rg-webfont.svg#allerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
