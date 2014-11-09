@@ -140,7 +140,7 @@ $(document).ready(function() {
   myndasyning[35] = new Image();
   myndasyning[35].src = "img/myndir/36.JPG";
   myndasyning[36] = new Image();
-  myndasyning[36].src = "img/myndir/37.JPG";
+  myndasyning[36].src = "img/myndir/37.jpg";
   myndasyning[37] = new Image();
   myndasyning[37].src = "img/myndir/38.JPG";
   myndasyning[38] = new Image();
