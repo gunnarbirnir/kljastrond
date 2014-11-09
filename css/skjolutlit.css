@@ -146,7 +146,7 @@ article, aside, footer, header, main, nav, section {
  
  .greinanofn2 {
  font-size: 13px;
- font-family: 'open_sansregular', Arial, sans-serif;
+ font-family: Arial, sans-serif;
  color: white;
  position: absolute; top: 10px; right: 10px;
  background-color: rgba(0,0,0,0.65);
