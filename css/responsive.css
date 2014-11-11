@@ -70,7 +70,12 @@ padding-bottom: 0px;
 .forsidugreinar {
 width: 100%;
 margin-bottom: 20px;
-left: 0px;
+left: 0%;
+}
+
+#forsidugrein2 {
+left: 0%;
+margin-left: 0px;
 }
 
 #storforsidugrein1 {
