@@ -105,32 +105,26 @@ article, aside, footer, header, main, nav, section {
  
  #myndasyning1 {
  background-image: url("../img/1.jpg");
- z-index: 6;
  }
  
  #myndasyning2 {
  background-image: url("../img/2.jpg");
- z-index: 5;
  }
  
  #myndasyning3 {
  background-image: url("../img/3.jpg");
- z-index: 4;
  }
  
  #myndasyning4 {
  background-image: url("../img/4.jpg");
- z-index: 3;
  }
  
  #myndasyning5 {
  background-image: url("../img/5.jpg");
- z-index: 2;
  }
  
  #myndasyning6 {
  background-image: url("../img/6.JPG");
- z-index: 1;
  }
  
  #umtexti {
@@ -141,7 +135,6 @@ article, aside, footer, header, main, nav, section {
  margin-left: auto;
  margin-right: auto;
  text-align: center;
- z-index: 7;
  }
  
  #umtextitexti {
