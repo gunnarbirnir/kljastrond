@@ -326,4 +326,14 @@ $(document).ready(function() {
 	  $(litlarm[myndateljari]).css("opacity", "0.0");
      }
   });
+  
+  $(function(){
+  litlarm.forEach(function(mafs, index){
+  $(litlarm[index]).click(function() {
+  $(litlarm[myndateljari]).css("opacity", "0.6");
+  myndateljari = index;
+  $(litlarm[index]).css("opacity", "0.0");
+  $("#myndarammi").css("background-image", "url(" + myndasyning[myndateljari].src + ")");
+  $("#myndatexti").text(myndasyningtexti[myndateljari]);
+ })})});
 });

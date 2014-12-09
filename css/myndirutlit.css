@@ -160,6 +160,7 @@ article, aside, footer, header, main, nav, section {
  height: auto;
  opacity: 0.6;
  display: block;
+ cursor: pointer;
  }
  
  .litlarmyndirlinkur {
