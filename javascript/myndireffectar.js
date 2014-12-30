@@ -159,7 +159,7 @@ $(document).ready(function() {
   myndasyning[46] = new Image();
   myndasyning[46].src = "img/myndir/47.jpg";
   myndasyning[47] = new Image();
-  myndasyning[47].src = "img/myndir/48.JPG";
+  myndasyning[47].src = "img/myndir/48.jpg";
   myndasyning[48] = new Image();
   myndasyning[48].src = "img/myndir/49.JPG";
   myndasyning[49] = new Image();
