@@ -547,7 +547,7 @@ $(document).ready(function() {
   thumbnail[36] = new Image();
   thumbnail[36].src = "img/myndir/thumbnail/37.jpg";
   thumbnail[37] = new Image();
-  thumbnail[37].src = "img/myndir/thumbnail/38.jpg";
+  thumbnail[37].src = "img/myndir/thumbnail/38.JPG";
   thumbnail[38] = new Image();
   thumbnail[38].src = "img/myndir/thumbnail/39.jpg";
   thumbnail[39] = new Image();
