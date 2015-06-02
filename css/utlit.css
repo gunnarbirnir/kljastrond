@@ -95,6 +95,7 @@ article, aside, footer, header, main, nav, section {
  background-position: center center;
  background-size: cover;
  background-repeat: no-repeat;
+ z-index: -1;
  }
  
  .bannermyndir {
