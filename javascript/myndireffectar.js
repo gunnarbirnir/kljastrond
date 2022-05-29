@@ -376,7 +376,7 @@ $(document).ready(function() {
   myndasyningtexti[43] = "Þóra Rósa Vigfúsdóttir ung.";
   myndasyningtexti[44] = "Dóra og Gunnur Ólafsdætur";
   myndasyningtexti[45] = "Stuðningsmenn Magna";
-  myndasyningtexti[46] = "Árni læknir og Hrefna kona hans";
+  myndasyningtexti[46] = "Gunnar Þórðarson og Kristrún kona hans";
   myndasyningtexti[47] = "Baldvin Gunnarsson, eldri";
   myndasyningtexti[48] = "Á sjó";
   myndasyningtexti[49] = "Á sjó";
